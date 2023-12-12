@@ -2,14 +2,12 @@ import io
 import streamlit as st
 from PIL import Image
 
-import keras
+
 import numpy as np
 import cv2
-from keras.applications import  VGG19
 
 import pathlib
 import os
-from tempfile import NamedTemporaryFile
 
 
 def PreprocessAndPredict(image):
